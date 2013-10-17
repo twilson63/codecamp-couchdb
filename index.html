@@ -207,7 +207,40 @@
             <img src="http://getting-started.jpg.to"></img>
           </section>
           <section>
-            
+            <h2>Installing CouchDb</h2>
+            <a href="http://couchdb.apache.org">couchdb.apache.org</a>
+            <p>Select Downloads</p>
+            <p>Follow Instructions</p>
+          </section>
+          <section>
+            <h2>Up and Running</h2>
+            <pre>
+              <code>
+                curl http://127.0.0.1:5984
+              </code>
+            </pre>
+            <img src="postman-couchdb.png"></img>
+          </section>
+          <section>
+            <img src="http://futon.jpg.to"></img>
+            <h2>Futon</h2>
+            <p>Admin Console</p>
+          </section>
+          <section>
+            <h2>Create Database</h2>
+          </section>
+          <section>
+            <h2>Add Document</h2>
+          </section>
+          <section>
+            <h2>Update Document</h2>
+          </section>
+          <section>
+            <h2>Delete Document</h2>
+          </section>
+          <section>
+            <h2>Exercise</h2>
+            <p>Using futon, create a database with your name, add a document, update the document, delete the document.</p>
           </section>
         </section>
         <section>
@@ -216,8 +249,16 @@
             <img src="http://couchdb-document-storage.jpg.to"></img>
           </section>
           <section>
-            
+            <h2>Create Database</h2>
+            <pre><code>curl -X PUT http://127.0.0.1:5984/foo</code></pre>
+            <img src="postman-createdb.png"></img>
           </section>
+          <section>
+            <h2>Add Document</h2>
+            <pre><code>curl -X POST http://127.0.0.1:5984/foo</code></pre>
+            <img src="postman-createdoc.png"></img>
+          </section>
+          
         </section>
         <section>
           <section>
